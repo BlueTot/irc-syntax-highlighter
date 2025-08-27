@@ -18,6 +18,25 @@ pre {
     line-height: 1.4;
     font-size: 14px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+code {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    margin-top: 5%;
+    text-align: center;
 }
 
 /* Highlight.js base class */
