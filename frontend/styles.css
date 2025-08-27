@@ -1,0 +1,88 @@
+/* Page background matches log area */
+body {
+    background-color: #1f1f28;   /* muted gray-blue, Kanagawa style */
+    margin: 0;
+    padding: 2rem;
+    font-family: "Fira Code", monospace;
+    color: #c0caf5;              /* default text color */
+}
+
+/* Log container */
+pre {
+    background-color: #1f1f28;   /* same as page for seamless look */
+    padding: 1rem 1.5rem;
+    border-radius: 0.6rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.4;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Highlight.js base class */
+.hljs {
+    background: none;
+    color: #c0caf5;   /* default text */
+}
+
+/* *** marker */
+.hljs-pink {
+    color: #f7768e;   /* soft pink */
+    font-weight: bold;
+}
+
+/* Action word (Quits, Joins, etc.) */
+.hljs-orange {
+    color: #ff9e64;   /* soft orange */
+    font-weight: bold;
+}
+
+/* Username */
+.hljs-blue {
+    color: #7aa2f7;   /* pastel blue */
+}
+
+/* First bracket section */
+.hljs-green {
+    color: #9ece6a;   /* pastel green */
+}
+
+/* Second bracket section */
+.hljs-purple {
+    color: #bb9af7;   /* pastel purple */
+}
+
+/* Strings inside brackets */
+.hljs-yellow {
+    color: #e0af68;   /* soft yellow/orange */
+}
+
+/* Literals inside brackets */
+.hljs-cyan {
+    color: #73daca;   /* pastel cyan */
+}
+
+/* Comments / muted text */
+.hljs-comment {
+    color: #565f89;
+    font-style: italic;
+}
+
+/* Less muted comment */
+.hljs-comment2 {
+    color: #7f88c0;
+    font-style: italic;
+}
+
+/* Optional: links */
+a, .hljs-link {
+    color: #7dcfff;
+    text-decoration: underline;
+}
+
+/* Optional: small metadata */
+.hljs-meta {
+    color: #565f89;
+}
+
